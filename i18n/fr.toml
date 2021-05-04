@@ -1,0 +1,75 @@
+# Regular translations
+[404_message]
+one = "Désolé – cette page ne semble pas exister (plus)."
+[address_title]
+one = "Adresse"
+[all]
+one = "Tous"
+[buy_now]
+one = "Acheter"
+[categories]
+one = "Catégories"
+[contact_form_email]
+one = "Votre adresse e-mail"
+[contact_form_message]
+one = "Message"
+[contact_form_name]
+one = "Votre nom"
+[contact_form_subject]
+one = "Objet"
+[email]
+one = "E-mail"
+[faq_toc_title]
+one = "Sommaire"
+[form_respond]
+one = "Merci pour votre message. Nous vous répondrons dans les plus brefs délais."
+[form_submitted]
+one = "Votre message a été transmis avec succès"
+[go_home]
+one = "À la paaaage d'accueil"
+[last_update]
+one = "Dernière mise à jour"
+[latest_posts]
+one = "Derniers articles"
+[location]
+one = "Lieu"
+[page_next]
+one = "Plus anciens"
+[page_prev]
+one = "Plus récents"
+[phone]
+one = "Téléphone"
+[posted_by]
+one = "Par"
+[read_more]
+one = "Lire la suite"
+[submit]
+one = "Envoyer le message"
+[tags]
+one = "Mots clefs"
+
+# Dates
+[january]
+one = "janvier"
+[february]
+one = "février"
+[march]
+one = "mars"
+[april]
+one = "avril"
+[may]
+one = "mai"
+[june]
+one = "juin"
+[july]
+one = "juillet"
+[august]
+one = "août"
+[september]
+one = "septembre"
+[october]
+one = "octobre"
+[november]
+one = "novembre"
+[december]
+one = "décembre"
