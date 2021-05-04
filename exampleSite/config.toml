@@ -1,7 +1,7 @@
 ################################# Basic configuration #########################
 # Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 baseURL = "http://examplesite.org"
-title = "Elitre - BBQ Burner Grill & Governor"
+title = "Elitre - BBQ Burner Grill & Governor AGA"
 theme = "airspace-hugo"
 themesDir = "../.."
 # Number of posts per page in list view
