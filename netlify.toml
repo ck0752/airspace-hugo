@@ -1,6 +1,6 @@
 [build]
-publish = "public"
-command = "hugo --gc"
+publish = "exampleSite/public"
+command = "cd exampleSite && hugo --gc"
 
 [context.production.environment]
 HUGO_VERSION = "0.71.0"
