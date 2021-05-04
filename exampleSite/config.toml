@@ -3,7 +3,7 @@
 baseURL = "http://bbqelitre.netlify.app"
 title = "Elitre - BBQ Burner Grill & Governor AGA"
 theme = "airspace-hugo"
-themesDir = "../.."
+#themesDir = "../.."
 # Number of posts per page in list view
 paginate = "4"
 # Post excerpt length
