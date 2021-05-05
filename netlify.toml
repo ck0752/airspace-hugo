@@ -6,6 +6,8 @@ command = "cd exampleSite && hugo --gc --themesDir ../.."
 HUGO_VERSION = "0.81.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+HUGO_THEME = "repo"
+HUGO_BASEURL = "/"
 
 [context.split1]
 command = "hugo --gc --enableGitInfo"
