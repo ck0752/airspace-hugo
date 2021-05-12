@@ -156,6 +156,13 @@ link = "plugins/magnific-popup/magnific-popup.min.css"
 [[params.plugins.css]]
 attributes = ""
 link = "plugins/slick/slick.css"
+
+[[params.plugins.css]]
+attributes = ""
+link = "plugins/custom.css"
+
+
+
 [[params.plugins.js]]
 attributes = ""
 link = "plugins/jquery/jquery.min.js"

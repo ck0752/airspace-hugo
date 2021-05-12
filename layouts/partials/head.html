@@ -49,11 +49,15 @@
 
   {{ "<!-- Plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css -}}
-  <link rel="stylesheet" href="{{ .link | relURL }}" {{ .attributes | safeHTMLAttr }}>
+  <link rel="stylesheet" href="{{ .link | relURL }}" {{ .attributes | safeHTMLAttr }}>    
+
+  
+
   {{ end }}
+  <script src="/plugins/custom.js"></script>
 
   {{ "<!-- Main stylesheet -->" | safeHTML }}
-  {{ $styles := slice (resources.Get "scss/style.scss") (resources.Get "scss/custom.scss") | resources.Concat "scss/bundled.scss" | toCSS | minify -}}
+  {{ $styles := slice (resources.Get "scss/style.scss") (resources.Get "scss/custom.scss") | resources.Concat "scss/bundled.scss" | resources.ToCSS | resources.Minify -}}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
 
   {{ "<!-- Favicon -->" | safeHTML }}
