@@ -182,7 +182,7 @@ link = "plugins/shuffle/shuffle.min.js"
 attributes = "defer"
 link = "plugins/google-map/gmap.js"
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/logo.png"
 [params.widgets]
 sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
