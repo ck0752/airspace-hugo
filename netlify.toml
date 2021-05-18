@@ -1,6 +1,6 @@
 [build]
 publish = "exampleSite/public"
-command = "cd exampleSite && hugo --gc --themesDir ../.."
+command = "cd exampleSite && hugo --gc --themesDir ../.. --minify --disableFastRender"
 
 [context.production.environment]
 HUGO_VERSION = "0.81.0"
