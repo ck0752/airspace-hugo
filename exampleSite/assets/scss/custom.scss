@@ -12,3 +12,37 @@
     z-index: 999;
     box-shadow: 0 3px 3px rgba(0,0,0,0.2);
  }
+
+/* 56px */
+.toTop-arrow {
+	width: 5rem;
+	height: 5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 3rem;
+	bottom: 3rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 30px;
+	height: 7px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.4rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.4rem;
+}
+.toTop-arrow:focus {outline: none;}
