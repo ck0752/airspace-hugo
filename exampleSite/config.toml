@@ -42,7 +42,7 @@ name = "Mehr"
 weight = 5
 [languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). All Rights Reserved."
+copyright = "Copyright &copy; 1996-2021 Elitre, All Rights Reserved."
 languageCode = "en-US"
 languageName = "English"
 weight = 1
@@ -140,7 +140,7 @@ enable = true
 username = ""
 [params.gmap]
 enable = true
-gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
+gmap_api = ""
 map_latitude = "25.07504376813366"
 map_longitude = "121.36069503206059"
 map_marker = "images/marker.png"

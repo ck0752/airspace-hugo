@@ -12,7 +12,11 @@
       {{ range .service_item }}
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <i class="icon {{ .icon }}"></i>
+          <!-- <i class="icon {{ .icon }}"></i>  -->
+          <img src="{{ .icon  | relURL }}" data-aos="fade-up"
+          data-aos-once="true"
+          data-aos-easing="ease-in"
+          data-aos-duration="1000">
           <h4>{{ .name | markdownify }}</h4>
           <p>{{ .content | markdownify }}</p>
         </div>

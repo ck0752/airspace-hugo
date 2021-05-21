@@ -50,11 +50,13 @@
   {{ "<!-- Plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css -}}
   <link rel="stylesheet" href="{{ .link | relURL }}" {{ .attributes | safeHTMLAttr }}>    
-
+  
   
 
   {{ end }}
-  <script src="/plugins/custom.js"></script>
+  <!--<script src="/plugins/custom.js"></script>-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   {{ "<!-- Main stylesheet -->" | safeHTML }}
   {{ $styles := slice (resources.Get "scss/style.scss") (resources.Get "scss/custom.scss") | resources.Concat "scss/bundled.scss" | resources.ToCSS | resources.Minify -}}

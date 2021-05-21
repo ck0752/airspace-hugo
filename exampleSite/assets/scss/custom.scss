@@ -15,8 +15,21 @@
 
  .container-fluid.fixed-top img
  {
-    width:130px;
+    //width:130px;
+    transform: scale(0.9,0.9);
+    transition: 0.3s linear; 
  }
+
+ /*
+ .container-fluid img:hover
+ {
+    transform: scale(0.8,0.8);
+    transform:rotate(3.14159rad);
+    transition: 0.3s linear;
+  
+ }
+ */
+
 
 /* 56px */
 .toTop-arrow {

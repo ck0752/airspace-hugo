@@ -35,4 +35,6 @@ $(function() {
         }
     }).scroll();d
 });
+
+AOS.init();
  
