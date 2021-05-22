@@ -68,24 +68,28 @@ funfacts:
   description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
   funfact_item:
   # funfacts item loop
-  - icon: "ion-ios-chatboxes-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Cups Of Coffee"
-    count: "99"
+  - icon: "ion-ios-home-outline" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Start From"
+    count: "1996"
 
   # funfacts item loop
-  - icon: "ion-ios-glasses-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Article Written"
-    count: "45"
+  - icon: "ion-earth" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Over Country"
+    count: "12"
 
   # funfacts item loop
   - icon: "ion-ios-compose-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Projects Completed"
-    count: "125"
+    name: "Certification"
+    count: "4"
 
-  # funfacts item loop
-  - icon: "ion-ios-timer-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Combined Projects"
-    count: "200"
+  # funfacts item loop ion-connection-bars
+  - icon: "ion-android-boat" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Shipments"
+    count: "3156"
+  # funfacts item loop  ion-arrow-graph-up-right
+  - icon: "ion-arrow-graph-up-right" # ionicon pack v2: https://ionicons.com/v2/
+    name: "Products"
+    count: "338"
 
   testimonial_slider:
   # testimonial item loop

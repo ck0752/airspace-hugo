@@ -36,5 +36,12 @@ $(function() {
     }).scroll();d
 });
 
-AOS.init();
+AOS.init({
+    once: false,
+    //delay: 50, // values from 0 to 3000, with step 50ms
+    duration: 1000, // values from 0 to 3000, with step 50ms
+    easing: 'ease-in-sine',
+
+
+});
  

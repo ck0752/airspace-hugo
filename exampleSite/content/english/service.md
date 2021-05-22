@@ -59,21 +59,25 @@ service:
     - icon : images/CSA.jpg #ionicon pack v2 : https://ionicons.com/v2/
       name: CSA
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      time: "50"
 
     # service item loop
     - icon : images/UL.jpg #ionicon pack v2 : https://ionicons.com/v2/
       name: UL
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      time: "150"
 
     # service item loop
     - icon : images/AGA.jpg #ionicon pack v2 : https://ionicons.com/v2/
       name: AGA
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      time: "250"
 
     # service item loop
     - icon : images/ISO9001.jpg #ionicon pack v2 : https://ionicons.com/v2/
       name: ISO9001
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      time: "350"
 
 
     # service item loop

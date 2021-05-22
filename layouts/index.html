@@ -1,11 +1,11 @@
 {{ define "main" }}
-
+<!-- 主頁 -->
 <!-- banner -->
 {{ with .Params.banner }}
 {{ if .enable }}
 <section class="slider {{if .bg_overlay}}overly{{end}}" style="background-image: url('{{ .bg_image | relURL }}');">
   <div class="container">
-    <div class="row">
+    <div class="row" data-aos="zoom-in">
       <div class="col-md-12">
         <div class="block">
           {{ with .title }}<h1>{{ . | markdownify }}</h1>{{ end }}
@@ -30,7 +30,7 @@
 <section class="about section">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
+      <div class="col-md-7 col-sm-12" data-aos="fade-right">
         <div class="block">
           <div class="section-title">
             {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
@@ -41,8 +41,7 @@
       </div>
       <div class="col-md-5 col-sm-12">
         <div class="block">
-          <img src="{{ .image | relURL }}" class="img-responsive" alt="Img" data-aos="fade-left" data-aos-once="true"
-          data-aos-duration="500">
+          <img src="{{ .image | relURL }}" class="img-responsive" alt="Img" data-aos="fade-left">
         </div>
       </div>
     </div>
@@ -57,7 +56,7 @@
 {{ if .enable }}
 <section class="feature bg-2" style="background-image: url('{{ .bg_image | relURL}}')">
   <div class="container">
-    <div class="row">
+    <div class="row" data-aos="fade-up">
       <div class="col-md-6 col-md-offset-6">
         {{ with .title }}<h2 class="section-subtitle">{{ . | markdownify }}</h2>{{ end }}
         {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
@@ -103,9 +102,11 @@
           <ul class="counter-box clearfix">
             {{ range .funfact_item }}
             <li class="counter-item">
-              <i class="{{ .icon }}"></i>
+              <i class="{{ .icon }}"></i><br />
               <h4 class="count" data-count="{{ .count }}">0</h4>
               <span>{{ .name | markdownify }}</span>
+              
+             
             </li>
             {{ end }}
           </ul>
