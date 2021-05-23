@@ -55,8 +55,10 @@
 
   {{ end }}
   <!--<script src="/plugins/custom.js"></script>-->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
+  <script src="/plugins/aos/aos.js"></script>
+  <link rel="stylesheet" href="/plugins/aos/aos.css" media="screen">
 
   {{ "<!-- Main stylesheet -->" | safeHTML }}
   {{ $styles := slice (resources.Get "scss/style.scss") (resources.Get "scss/custom.scss") | resources.Concat "scss/bundled.scss" | resources.ToCSS | resources.Minify -}}
