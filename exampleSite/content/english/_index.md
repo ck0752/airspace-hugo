@@ -87,28 +87,33 @@ funfacts:
     name: "Shipments"
     count: "3156"
   # funfacts item loop  ion-arrow-graph-up-right
-  - icon: "ion-arrow-graph-up-right" # ionicon pack v2: https://ionicons.com/v2/
-    name: "Products"
-    count: "338"
+ # - icon: "ion-arrow-graph-up-right" # ionicon pack v2: https://ionicons.com/v2/
+ #   name: "Completed Product"
+ #   count: "338"
 
   testimonial_slider:
   # testimonial item loop
-  - name: "Raymond Roy"
-    image: "images/clients/avater-1.jpg"
+  - name: "Australia"
+    image: "images/clients/Australia.jpg"
     designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+    #content: "Sydney is the capital city of the state of New South Wales, and the most populous city in Australia and Oceania."
+    content: "The first business starts from here, Australia."
 
   # testimonial item loop
-  - name: "Randi Renin"
-    image: "images/clients/avater-1.jpg"
+  - name: "United State"
+    image: "images/clients/USA.jpg"
     designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+    content: "This is where the first dealed trade county!"
 
   # testimonial item loop
-  - name: "Rose Rio"
-    image: "images/clients/avater-3.jpg"
+  - name: "Singapore"
+    image: "images/clients/Singapore.jpg"
     designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+    content: "This is where the first dealed trade county!"
 
+  - name: "France"
+    image: "images/clients/France.jpg"
+    designation: "CEO-Themefisher"
+    content: "This is where the first dealed trade county!"
 
 ---

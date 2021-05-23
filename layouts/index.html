@@ -5,7 +5,7 @@
 {{ if .enable }}
 <section class="slider {{if .bg_overlay}}overly{{end}}" style="background-image: url('{{ .bg_image | relURL }}');">
   <div class="container">
-    <div class="row" data-aos="zoom-in">
+    <div class="row" data-aos="fade-down">
       <div class="col-md-12">
         <div class="block">
           {{ with .title }}<h1>{{ . | markdownify }}</h1>{{ end }}
