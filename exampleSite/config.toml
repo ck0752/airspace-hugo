@@ -182,6 +182,10 @@ link = "plugins/google-map/gmap.js"
 [[params.plugins.js]]
 attributes = ""
 link = "plugins/aos/aos.js"
+#add lazyload https://github.com/tuupola/lazyload
+[[params.plugins.js]]
+attributes = ""
+link = "plugins/lazyload/lazysizes.min.js"
 [params.preloader]
 enable = false
 preloader = "images/logo.png"

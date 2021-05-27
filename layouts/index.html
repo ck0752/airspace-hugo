@@ -51,7 +51,7 @@
 {{ end }}
 <!-- /about -->
 
-<!-- portfolio -->
+<!-- portfolio 第二banner設定-->
 {{ with .Params.portfolio }}
 {{ if .enable }}
 <section class="feature bg-2" style="background-image: url('{{ .bg_image | relURL}}')">
@@ -112,6 +112,7 @@
           </ul>
         </div>
       </div>
+      <!--國家設定-->
       <div class="col-md-5 col-md-offset-1">
         <div class="testimonial-carousel text-center">
           <div class="testimonial-slider owl-carousel">
@@ -120,7 +121,8 @@
               <i class="ion-quote"></i>
               {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
               <div class="user">
-                <img src="{{ .image | relURL }}" alt="client">
+               <img class="lazyload" data-src="{{ .image | relURL }}" width="300" height="400" alt="client"> 
+               <!-- <img src="{{ .image | relURL }}" alt="client"> -->
                 <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
               </div>
             </div>
