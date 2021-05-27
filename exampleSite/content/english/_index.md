@@ -92,27 +92,27 @@ funfacts:
  #   count: "338"
 
   testimonial_slider:
-  # testimonial item loop
+  # testimonial item loop 國家圖片路徑
   - name: "Australia"
-    image: "images/clients/Australia.jpg"
+    image: "images/clients/Australia34.jpg"
     designation: "CEO-Themefisher"
     #content: "Sydney is the capital city of the state of New South Wales, and the most populous city in Australia and Oceania."
     content: "The first business starts from here, Australia."
 
   # testimonial item loop
   - name: "United State"
-    image: "images/clients/USA.jpg"
+    image: "images/clients/USA34.jpg"
     designation: "CEO-Themefisher"
     content: "This is where the first dealed trade county!"
 
   # testimonial item loop
   - name: "Singapore"
-    image: "images/clients/Singapore.jpg"
+    image: "images/clients/Singapore34.jpg"
     designation: "CEO-Themefisher"
     content: "This is where the first dealed trade county!"
 
   - name: "France"
-    image: "images/clients/France.jpg"
+    image: "images/clients/France34.jpg"
     designation: "CEO-Themefisher"
     content: "This is where the first dealed trade county!"
 

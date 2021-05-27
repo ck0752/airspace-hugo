@@ -144,6 +144,10 @@ gmap_api = ""
 map_latitude = "25.07504376813366"
 map_longitude = "121.36069503206059"
 map_marker = "images/marker.png"
+#add aos css
+[[params.plugins.css]]
+attributes = "media='screen'"
+link = "/plugins/aos/aos.css"
 [[params.plugins.css]]
 attributes = "media='screen'"
 link = "plugins/bootstrap/css/bootstrap.min.css"
@@ -156,13 +160,6 @@ link = "plugins/magnific-popup/magnific-popup.min.css"
 [[params.plugins.css]]
 attributes = ""
 link = "plugins/slick/slick.css"
-
-[[params.plugins.css]]
-attributes = ""
-link = "plugins/custom.css"
-
-
-
 [[params.plugins.js]]
 attributes = ""
 link = "plugins/jquery/jquery.min.js"
@@ -181,6 +178,10 @@ link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
 attributes = "defer"
 link = "plugins/google-map/gmap.js"
+#add aos js and css
+[[params.plugins.js]]
+attributes = ""
+link = "plugins/aos/aos.js"
 [params.preloader]
 enable = false
 preloader = "images/logo.png"
