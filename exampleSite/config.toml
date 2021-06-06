@@ -1,45 +1,12 @@
 baseURL = "http://bbq-elitre.netlify.app"
-disableLanguages = ["fr"]
+disableLanguages = ["fr,de,it"]
 disqusShortname = ""
 googleAnalytics = ""
 paginate = "4"
 summaryLength = "30"
 theme = "airspace-hugo"
 title = "Elitre - BBQ Burner Grill & Governor AGA"
-[languages.de]
-contentDir = "content/german"
-copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Alle Rechte vorbehalten."
-languageCode = "de-DE"
-languageName = "Deutsch"
-weight = 3
-[[languages.de.menu.footer]]
-URL = "about"
-name = "Über"
-weight = 1
-[[languages.de.menu.footer]]
-URL = "project"
-name = "Projekt"
-weight = 2
-[[languages.de.menu.footer]]
-URL = "service"
-name = "Dienstleistung"
-weight = 3
-[[languages.de.menu.footer]]
-URL = "pricing"
-name = "Preise"
-weight = 4
-[[languages.de.menu.footer]]
-URL = "faq"
-name = "Häufige Fragen"
-weight = 5
-[[languages.de.menu.footer]]
-URL = "contact"
-name = "Kontakt"
-weight = 6
-[[languages.de.menu.main]]
-hasChildren = true
-name = "Mehr"
-weight = 5
+
 [languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 1996-2021 Elitre, All Rights Reserved."
@@ -52,16 +19,17 @@ name = "About"
 weight = 1
 [[languages.en.menu.footer]]
 URL = "project"
-name = "Project"
+name = "Product"
 weight = 2
 [[languages.en.menu.footer]]
 URL = "service"
 name = "Service"
 weight = 3
-[[languages.en.menu.footer]]
-URL = "pricing"
-name = "Pricing"
-weight = 4
+
+#[[languages.en.menu.footer]]
+#URL = "pricing"
+#name = "Pricing"
+#weight = 4
 [[languages.en.menu.footer]]
 URL = "faq"
 name = "FAQ"
@@ -74,40 +42,8 @@ weight = 6
 hasChildren = true
 name = "More"
 weight = 5
-[languages.it]
-contentDir = "content/italian"
-copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Tutti i diritti riservati."
-languageCode = "it-IT"
-languageName = "Italiano"
-weight = 2
-[[languages.it.menu.footer]]
-URL = "about"
-name = "Chi siamo"
-weight = 1
-[[languages.it.menu.footer]]
-URL = "project"
-name = "Progetto"
-weight = 2
-[[languages.it.menu.footer]]
-URL = "service"
-name = "Servizio"
-weight = 3
-[[languages.it.menu.footer]]
-URL = "pricing"
-name = "Tariffazione"
-weight = 4
-[[languages.it.menu.footer]]
-URL = "faq"
-name = "Domande frequenti"
-weight = 5
-[[languages.it.menu.footer]]
-URL = "contact"
-name = "Contatta"
-weight = 6
-[[languages.it.menu.main]]
-hasChildren = true
-name = "Più"
-weight = 5
+
+
 [markup.goldmark.renderer]
 unsafe = true
 [markup.tableOfContents]
@@ -133,7 +69,7 @@ enable = true
 success_image = "images/paper-plane.svg"
 use_netlify = true
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
 [params.counter]
 enable = true
@@ -172,6 +108,10 @@ link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 attributes = ""
 link = "plugins/magnific-popup/magnific-popup.min.js"
+#add lazyload https://github.com/tuupola/lazyload
+[[params.plugins.js]]
+attributes = ""
+link = "plugins/lazyload/lazysizes.min.js"
 [[params.plugins.js]]
 attributes = ""
 link = "plugins/shuffle/shuffle.min.js"
@@ -182,10 +122,7 @@ link = "plugins/google-map/gmap.js"
 [[params.plugins.js]]
 attributes = ""
 link = "plugins/aos/aos.js"
-#add lazyload https://github.com/tuupola/lazyload
-[[params.plugins.js]]
-attributes = ""
-link = "plugins/lazyload/lazysizes.min.js"
+
 [params.preloader]
 enable = false
 preloader = "images/logo.png"

@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <title>{{ with .Title }}{{ . }}{{ else }}{{ site.Title }}{{ end }}</title>
-
+ 
   {{ "<!-- Mobile responsive metadata -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
@@ -51,7 +51,8 @@
   {{ range site.Params.plugins.css -}}
   <link rel="stylesheet" href="{{ .link | relURL }}" {{ .attributes | safeHTMLAttr }}>    
   
-  
+  <meta name="robots" content="index,follow" /> 
+  <meta name="googlebot" content="index,follow" />
 
   {{ end }}
   <!--<script src="/plugins/custom.js"></script>-->

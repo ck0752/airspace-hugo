@@ -1,6 +1,6 @@
 ---
 title: "Company Profile"
-description: "this is meta description"
+description: ""
 bg_image: "images/feature-bg.jpg"
 layout: "about"
 draft: false
@@ -14,19 +14,15 @@ menu:
 about:
   enable : true
   image : "images/company/about.jpg"
-  title : "We strive to be the best and <br> make awesome work."
+  title : "ELITRE CO., LTD."
   content : "ELITRE CO., LTD. (Abbreviation: ELITRE) was established in 1996, we are BBQ components supplier, with profession in both electric and gas appliances. Our major service and product extent include R&D, technical and international trading of our products, which are BBQ burners, BBQ Components, Gas hoses, Gas Hob component parts. Our efforts devoted in the expansion of international market have been enhanced by the premium production of quality goods and satisfactory service; therefore we have been trading worldwide. Our potential market has reached international continents such as the United States of America, Europe, Australia, Mainland China, South Asia and so forth.
-
-
-
-Each management executive in ELITRE has comprehensive experiences and technical know-how in home appliances so that we could provide sound service from product itself to post-purchase maintenance and guarantee in order to ensure our customers' right around the world.
-
-
-
-The manufacturing factory of ELITRE has been approved by ISO9001 in product quality control as well as in product processing. In accordance with ISO9001 approval, our factory has tremendous capacity to develop most of latest designs that are requested by the customers. Our mission is to fulfill the best as well as satisfy every valuable customers."
+  <p>  
+  Each management executive in ELITRE has comprehensive experiences and technical know-how in home appliances so that we could provide sound service from product itself to post-purchase maintenance and guarantee in order to ensure our customers' right around the world.
+<p> 
+  The manufacturing factory of ELITRE has been approved by ISO9001 in product quality control as well as in product processing. In accordance with ISO9001 approval, our factory has tremendous capacity to develop most of latest designs that are requested by the customers. Our mission is to fulfill the best as well as satisfy every valuable customers."
 
   button:
-    enable : true
+    enable : false
     label : "Download Company Profile"
     link : "#"
 

@@ -1,4 +1,5 @@
 ---
+  #product 商品樣板設定
 label: Project
 hide_body: false
 fields:
@@ -9,9 +10,9 @@ fields:
   name: description
   label: description
   description: this is meta description
-- type: file
-  name: image
-  label: image
+#- type: file
+ # name: image
+ # label: image
 - type: file
   name: bg_image
   label: bg image
@@ -30,3 +31,11 @@ fields:
   - type: text
     name: info
     label: info
+- type: field_group_list
+  name: image
+  label: image
+  fields:
+  - type: file
+    name: url
+    label: url
+    

@@ -4,7 +4,7 @@
 
 {{ $data := index site.Data site.Language.Lang }}
 
-<!-- Portfolio Start -->
+<!-- Portfolio Start 商品分類設定-->
 <section class="portfolio-work">
   <div class="container">
     <div class="row">
@@ -29,13 +29,16 @@
           <div class="row shuffle-wrapper">
             {{ range .Data.Pages }}
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
-              {{ if isset .Params "image" }}
-              <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+              {{ if isset .Params "image1" }}
+                {{ range first 1 .Params.image1 }}
+              <!-- <img class="col-md-4 lazyload" data-src="{{ .name | relURL }}" alt="{{ .Title }}" style="padding-top: 15px; padding-bottom: 15px;"> -->
+              <img src="{{ .name | relURL }}" alt="{{ .Title }}">
+              {{ end }}
               {{ end }}
               <div class="portfolio-hover">
                 <div class="portfolio-content">
-                  {{ with .Params.image }}
-                  <a href="{{ . | relURL }}" class="portfolio-popup"><i class="icon ion-search"></i></a>
+                  {{ range first 1 .Params.image1 }}
+                  <a href="{{ .name | relURL }}" class="portfolio-popup"><i class="icon ion-search"></i></a>
                   {{ end }}
                   <a class="h3" href="{{ .RelPermalink }}">{{ .Title }}</a>
                   <p>{{ .Params.Description }}</p>
@@ -43,6 +46,7 @@
               </div>
             </div>
             {{ end }}
+           
           </div>
         </div>
       </div>

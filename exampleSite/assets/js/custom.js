@@ -1,5 +1,6 @@
 // Put custom JavaScript code in this file
 // Put custom JavaScript code in this file
+
 document.addEventListener("DOMContentLoaded", function(){
 		
 	window.addEventListener('scroll', function() {
@@ -41,7 +42,12 @@ AOS.init({
     //delay: 50, // values from 0 to 3000, with step 50ms
     duration: 1000, // values from 0 to 3000, with step 50ms
     easing: 'ease-in-sine',
-
-
 });
+
+
+//lazySize js
+window.lazySizesConfig = window.lazySizesConfig || {};
+window.lazySizesConfig.init = false;
+onMyCallback(lazySizes.init);
+
  

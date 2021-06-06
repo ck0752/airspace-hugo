@@ -40,8 +40,8 @@
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
-        <div class="block">
-          <img src="{{ .image | relURL }}" class="img-responsive" alt="Img" data-aos="fade-left">
+        <div class="block"> <!-- img-responsive data-aos="fade-left"-->
+          <img data-src="{{ .image | relURL }}" class="img-responsive lazyload" alt="Img" data-aos="fade-left">
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@
 {{ end }}
 <!-- /about -->
 
-<!-- portfolio 第二banner設定-->
+<!-- portfolio 第二banner設定 -->
 {{ with .Params.portfolio }}
 {{ if .enable }}
 <section class="feature bg-2" style="background-image: url('{{ .bg_image | relURL}}')">
