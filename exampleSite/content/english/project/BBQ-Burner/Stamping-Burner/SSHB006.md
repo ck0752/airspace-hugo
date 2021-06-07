@@ -3,7 +3,7 @@ title: "Stamping Burner"
 description: "SSHB006"
 draft: false
 image1 : 
-  - name : "images/portfolio/Stamping-Burner/sshb006.jpg"
+  - name : "images/portfolio/Stamping-Burner/sshb004.jpg"
 bg_image: "images/BurnerGroup.jpg"
 category: "Stamping Burner"
 information:

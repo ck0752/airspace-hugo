@@ -13,7 +13,7 @@
           <div class="portfolio-menu">
             <div class="btn-group btn-group-toggle justify-content-center" data-toggle="buttons">
               <label class="btn btn-sm btn-primary active">
-                <input type="radio" name="shuffle-filter" value="all" checked="checked">{{ i18n "all" }}
+                <input type="radio" name="shuffle-filter" value="all"  checked="checked">{{ i18n "all" }}
               </label>
               {{ $categories := slice }}
               {{ range .Data.Pages }}
@@ -26,13 +26,13 @@
               {{ end }}
             </div>
           </div>
-          <div class="row shuffle-wrapper">
+          <div class="row shuffle-wrapper"> 
             {{ range .Data.Pages }}
-            <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
+            <div class="xs-col-12 col-md-4 mx-h portfolio-item shuffle-item " data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
               {{ if isset .Params "image1" }}
                 {{ range first 1 .Params.image1 }}
               <!-- <img class="col-md-4 lazyload" data-src="{{ .name | relURL }}" alt="{{ .Title }}" style="padding-top: 15px; padding-bottom: 15px;"> -->
-              <img src="{{ .name | relURL }}" alt="{{ .Title }}">
+              <img class="portfolio-img" src="{{ .name | relURL }}" alt="{{ .Title }}">
               {{ end }}
               {{ end }}
               <div class="portfolio-hover">
