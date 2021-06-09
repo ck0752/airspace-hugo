@@ -115,6 +115,10 @@ link = "plugins/lazyload/lazysizes.min.js"
 [[params.plugins.js]]
 attributes = ""
 link = "plugins/shuffle/shuffle.min.js"
+
+#[[params.plugins.js]]
+#attributes = ""
+#link = "plugins/imageloaded/imagesloaded.pkgd.min.js"
 [[params.plugins.js]]
 attributes = "defer"
 link = "plugins/google-map/gmap.js"

@@ -50,4 +50,11 @@ window.lazySizesConfig = window.lazySizesConfig || {};
 window.lazySizesConfig.init = false;
 onMyCallback(lazySizes.init);
 
- 
+// imagesLoaded
+/*
+$('#portfolio-img-parent').imagesLoaded().always( function() {
+    // images have loaded
+    alert('imageloaded');
+    shuffleInstance.layout();
+  });
+ */

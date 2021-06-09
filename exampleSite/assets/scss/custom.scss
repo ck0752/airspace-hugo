@@ -65,3 +65,16 @@
 	right: 0.4rem;
 }
 .toTop-arrow:focus {outline: none;}
+
+
+//lazyload css
+/* fade image in after load */
+
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 800ms;
+}

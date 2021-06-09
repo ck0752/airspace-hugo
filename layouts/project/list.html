@@ -28,11 +28,11 @@
           </div>
           <div class="row shuffle-wrapper"> 
             {{ range .Data.Pages }}
-            <div class="xs-col-12 col-md-4 mx-h portfolio-item shuffle-item " data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
+            <div id="portfolio-img-parent" class="xs-col-12 col-md-4 mx-h portfolio-item shuffle-item " data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
               {{ if isset .Params "image1" }}
                 {{ range first 1 .Params.image1 }}
               <!-- <img class="col-md-4 lazyload" data-src="{{ .name | relURL }}" alt="{{ .Title }}" style="padding-top: 15px; padding-bottom: 15px;"> -->
-              <img class="portfolio-img" src="{{ .name | relURL }}" alt="{{ .Title }}">
+              <img class="portfolio-img lazyload" data-src="{{ .name | relURL }}" alt="{{ .Title }}">
               {{ end }}
               {{ end }}
               <div class="portfolio-hover">
