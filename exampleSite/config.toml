@@ -13,6 +13,7 @@ copyright = "Copyright &copy; 1996-2021 Elitre, All Rights Reserved."
 languageCode = "en-US"
 languageName = "English"
 weight = 1
+
 [[languages.en.menu.footer]]
 URL = "about"
 name = "About"
@@ -21,10 +22,11 @@ weight = 1
 URL = "project"
 name = "Product"
 weight = 2
-[[languages.en.menu.footer]]
-URL = "service"
-name = "Service"
-weight = 3
+
+#[[languages.en.menu.footer]]
+#URL = "service"
+#name = "Service"
+#weight = 3
 
 #[[languages.en.menu.footer]]
 #URL = "pricing"
@@ -38,10 +40,52 @@ weight = 5
 URL = "contact"
 name = "Contact"
 weight = 6
+#menu bak
+#[[languages.en.menu.main]]
+#hasChildren = true
+#name = "More"
+#weight = 0
+
 [[languages.en.menu.main]]
-hasChildren = true
-name = "More"
+URL = ""
+name = "Home"
+weight = 1
+[[languages.en.menu.main]]
+URL = "about"
+name = "About"
+weight = 2
+[[languages.en.menu.main]]
+URL = "project"
+name = "Product"
+weight = 3
+[[languages.en.menu.main]]
+URL = "contact"
+name = "Contact"
 weight = 5
+[[languages.en.menu.main]]
+URL = "faq"
+name = "FAQ"
+weight = 4
+
+
+# [[languages.en.menu.main]]
+# URL = "More"
+# name = "More"
+# weight = 6
+# [[languages.en.menu.main]]
+# URL = "More1"
+# name = "More1"
+# parent = "More"
+# weight = 1
+# [[languages.en.menu.main]]
+# URL = "More2"
+# name = "More2"
+# parent = "More"
+# weight = 2
+
+
+
+
 
 
 [markup.goldmark.renderer]

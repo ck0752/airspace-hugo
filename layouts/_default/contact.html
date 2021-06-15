@@ -50,11 +50,13 @@
             {{ if isset . "email" }}<li><i class="ion-ios-email-outline"></i>{{ if .address_descriptors }}{{ i18n "email" | printf "%s: " }}{{ end }}{{ partial "cloak_email" .email }}</li>{{ end }}
             {{ if isset . "phone" }}<li><i class="ion-ios-telephone-outline"></i>{{ if .address_descriptors }}{{ i18n "phone" | printf "%s: " }}{{ end }}{{ .phone }}</li>{{ end }}
           </ul>
+<!--           
           <ul class="social-icons">
             {{ range site.Params.social }}
             <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
             {{ end }}
           </ul>
+          -->
         </div>
       </div>
       {{ end }}
