@@ -22,7 +22,8 @@
         {{ end }}
       </div>
     </div>
-    <div class="row counter-box text-center mt-50">
+    <!-- 設定 counter -->
+      <div class="row counter-box text-center mt-50" style="display: none;">
       {{ range .funfacts }}
       <div class="col-md-2">
         <div class="counter-item">
@@ -67,11 +68,13 @@
 {{ end }}
 {{ end }}
 
+{{ if .Params.testimonial.enable }}
+
 <section class="testimonial section-sm">
   <div class="container">
     <div class="row">
-      {{ if .Params.testimonial.enable }}
       {{ with .GetPage "/" }}
+    
       <div class="col-md-6">
         <div class="testimonial-carousel text-center">
           <div class="testimonial-slider owl-carousel">
@@ -110,16 +113,21 @@
           </div>
         </div>
       </div>
-      {{ end }}
-      {{ end }}
+  
     </div>
   </div>
 </section>
+{{ end }}
+{{ end }}
 
 <!-- Call to action -->
 {{ if .Params.cta.enable }}
 {{ partial "cta.html" . }}
 {{ end }}
 <!-- /Call to action -->
+
+
+<!-- /Call to Country -->
+{{ partial "country.html" . }}
 
 {{ end }}

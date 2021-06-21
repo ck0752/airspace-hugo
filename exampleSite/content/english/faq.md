@@ -1,48 +1,50 @@
 ---
 title: "Frequently Asked Questions"
-description: "this is meta description"
-subtitle : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, repudiandae."
-lastmod: 2021-04-01T00:00:00
+description: "FAQ"
+#subtitle : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, repudiandae."
+#lastmod: 2021-04-01T00:00:00
 bg_image: "images/feature-bg.jpg"
 layout: "faq"
 draft: false
 ---
 
-### Welcome to Airspace dsdfsdf!
+<!-- ### Welcome to Airspace
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ullam sint quas pariatur ipsam nemo
-repellendus suscipit quod accusantium numquam tempora assumenda sequi, velit voluptatem soluta voluptatibus
-nesciunt ducimus iure. Excepturi voluptatum ullam tenetur perspiciatis alias delectus beatae voluptatibus
-magni facere aspernatur, qui, quas nesciunt blanditiis assumenda a expedita accusantium quos consectetur neque
-nemo. Necessitatibus est quod quo deserunt, dicta aut voluptatem blanditiis, alias quos sed vel unde enim
-dolore aliquam quis reiciendis qui vitae reprehenderit. Similique nemo accusamus, vel possimus error cumque
-quas, tempora repellendus velit, unde cupiditate impedit deserunt fugit labore et nostrum sapiente est
-obcaecati maiores voluptates.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ullam sint quas pariatur ipsam nemo -->
 
-#### 1.Overview
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas iusto, alias, tempora fuga quam eveniet
-neque excepturi aliquid. Eligendi, mollitia.
+#### 1. Overview
+
+We are BBQ components and Grill parts supplier, with profession in both electric and gas appliances including BBQ burner, Cooking grid, regulator governor.
+<br><br>
 
 #### 2. Do you have any certification?
 
-A. We have certification of CSA, UL, ISO9001 and AGA, and we keep renewing theses certifications to ensure the quality and service for our customers.
+A. We have certification of CSA, UL, ISO9001 and AGA, and we keep renewing theses certifications to ensure the quality and service for our customers.<br><br>
 
-#### 3. Q. What trading Incoterms do you accept?
+#### 3. What trading terms do you offer?
 
-A. We usually use FOB, CIF, other incoterms are also welcome!
+A. We usually quote by FOB, CIF, other incoterms could be discussed!<br><br>
 
-#### 4. What is the Packing details?
+#### 4. What is the packing details?
 
-A. Every single item will be in a Polybag
+A. Each item will put in a Polybag, and 3~5 polybags into a small Inner Box, then fulfill in a Big Carbon, the last step loading on the pallet.
+   <br><br>We will make sure the good quality in packaging protection and safety of products during transportation.
+<div class="pic-row">
+<img src="/images/faq/polybag.jpg">
+<img src="/images/faq/pallet2.jpg">
+</div>
+<br><br>
 
-#### 5. What are the Transportations?
+#### 5. What are the transportations?
 
-A. 
+A. You could choose by sea shipment, or by air, by express if you need in time. <br><br>
 
-#### 6. What is your Delivery Time?
+#### 6. What is the lead time for mass production?
 
-A.
+A. In general, it should be 35-50 days for production. Due to COVID-19, it will extend to 45-60 days. However, it depends on the order quantity and the season you place the order, we will try our best to deliver products to you as soon as possible.
+<br><br>
 
+#### 7. Do you have any warranty policy?
 
-#### 7. Do you have any Warranty Policy?
+A. Sure, We warrant our products for a period of ""Two 需要修改"" years from the original invoice date, under normal use and conditions. Any questions you got, please feel free to let us know!

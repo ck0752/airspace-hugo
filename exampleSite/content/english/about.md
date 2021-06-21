@@ -56,7 +56,7 @@ about:
 
 ################################ feature #####################################
 features:
-  enable : true
+  enable : false
   title : "We are indepented Design & Development Agency"
   feature_item:
   # feature item loop
@@ -92,11 +92,11 @@ features:
 
 #################################### testimonial & mission vision #######################################
 testimonial:
-  enable : true
+  enable : false
   # testimonial content comes from "data/*/homepage.yml" file
 
 mission_vision:
-  enable : true
+  enable : false
   tabs:
   # tab item loop
   - name : "Vision"
@@ -134,6 +134,62 @@ mission_vision:
 
 ############################# call to action #################################
 cta:
-  enable : true
+  enable : false
   # call to action content comes from "_index.md"
+
+
+  ############################# Funfacts ###############################
+funfacts:
+  enable: true
+  title: "Our Story"
+  description: "'   Elitre was founded in 1996, our BBQ accessories and gas grill parts has been trading to many countries around the world.   '"
+  funfact_item:
+  # funfacts item loop
+  - icon: "ion-ios-home-outline" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Start From"
+    count: "1996"
+
+  # funfacts item loop
+  - icon: "ion-earth" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Over Country"
+    count: "12"
+
+  # funfacts item loop
+  - icon: "ion-ios-compose-outline" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Certification"
+    count: "4"
+
+  # funfacts item loop ion-connection-bars
+  - icon: "ion-android-boat" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Shipments"
+    count: "3156"
+  # funfacts item loop  ion-arrow-graph-up-right
+ # - icon: "ion-arrow-graph-up-right" # ionicon pack v2: https://ionicons.com/v2/
+ #   name: "Completed Product"
+ #   count: "338"
+
+  testimonial_slider:
+  # testimonial item loop 國家圖片路徑
+  - name: "Australia"
+    image: "images/clients/Australia34.jpg"
+    designation: "Sydney Opera House"
+    #content: "Sydney is the capital city of the state of New South Wales, and the most populous city in Australia and Oceania."
+    content: "Australia, the first business starts from ~<br> We really appriciate it!"
+
+  # testimonial item loop
+  - name: "United State"
+    image: "images/clients/USA34.jpg"
+    designation: "Statue of Liberty"
+    content: "Barbecue is the one of most popular activities in USA!"
+
+  # testimonial item loop
+  - name: "Singapore"
+    image: "images/clients/Singapore34.jpg"
+    designation: "Merlion Park"
+    content: "Merlion Park/"
+
+  - name: "France"
+    image: "images/clients/France34.jpg"
+    designation: "La Tour Eiffel"
+    content: "La Tour Eiffel"
 ---

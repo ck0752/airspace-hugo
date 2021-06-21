@@ -37,12 +37,17 @@
             {{ with .description }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
           </div>
           {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+          <div class="block">
+          <a href="/project/aga-regulator-governor/" class="btn btn-main animated fadeInUp">More</a>
+          </div>
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
         <div class="block"> <!-- img-responsive data-aos="fade-left"-->
           <img data-src="{{ .image | relURL }}" class="img-responsive lazyload" alt="Img" data-aos="fade-left">
+         
         </div>
+
       </div>
     </div>
   </div>
