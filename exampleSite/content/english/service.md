@@ -47,8 +47,7 @@ featured_service:
 service:
   enable : true
   title : "Our Certification"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+  description : "We attach great importance to our product’s Quality, Safety, and Reliability. To ensure the value of product for our customers."
   service_item:
     # service item loop
     - icon : images/CSA.jpg #ionicon pack v2 : https://ionicons.com/v2/

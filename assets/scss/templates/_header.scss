@@ -7,7 +7,9 @@ header {
   @include desktop {
     min-height: 90px;
   }
-	background: #fff;
+	// 設定 background: #fff;
+	//background-color: rgba(255,255,255,.65);
+	background-color:transparent;
 	padding: 20px 0;
 	.navbar {
 		margin-bottom: 0px;

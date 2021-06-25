@@ -9,7 +9,7 @@
 	background-size: cover;
 	padding: 100px 0;
 	background-color:  rgb(0, 0, 0);
-    opacity: .8;
+    //opacity: .8;
 
   @include tablet {
     padding-top: 20px;
@@ -23,8 +23,11 @@
 	}
 
 	p {
-		color: #8d8f92;
+		//color: #8d8f92;
+		//設定
+		color: #fff;
 		margin-bottom: 20px;
+		font-size: 18px;
 	}
 
 	.btn-view-works {

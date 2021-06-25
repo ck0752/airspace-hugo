@@ -47,4 +47,4 @@ A. In general, it should be 35-50 days for production. Due to COVID-19, it will 
 
 #### 7. Do you have any warranty policy?
 
-A. Sure, We warrant our products for a period of ""Two 需要修改"" years from the original invoice date, under normal use and conditions. Any questions you got, please feel free to let us know!
+A. Sure, We warrant our products for a period of two years from the original invoice date, under normal use and conditions. If Any questions, please feel free to let us know!

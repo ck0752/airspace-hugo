@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 {{ partial "page-title.html" . }}
-
+<!-- contact設定 -->
 <section class="contact-form">
   <div class="container">
     {{ with site.Params.contact.form }}{{ if .enable }}
@@ -44,12 +44,19 @@
       {{ with site.Params.contact }}
       <div class="col-md-6 col-sm-12">
         <div class="block">
+          <h2>Contact Us</h2>
+          <ul class="address-block">
+            <!-- ion-ios-paperplane-outline ion-paper-airplane-->
+            <li><i class="ion-ios-paperplane-outline"></i>If you would like to contact us to obtain more information,<Br> please E-mail To Us. We will respond as soon as possible.</li>
+            <li><i class="ion-ios-lightbulb-outline"></i>Your query is always welcome; OEM & ODM are available!<Br> Thank you for visiting our website. </li>
+          </ul> 
           <h2>{{ i18n "address_title" }}</h2>
           <ul class="address-block">
             {{ if isset . "location" }}<li><i class="ion-ios-location-outline"></i>{{ if .address_descriptors }}{{ i18n "location" | printf "%s: " }}{{ end }}<div>{{ .location | markdownify }}</div></li>{{ end }}
             {{ if isset . "email" }}<li><i class="ion-ios-email-outline"></i>{{ if .address_descriptors }}{{ i18n "email" | printf "%s: " }}{{ end }}{{ partial "cloak_email" .email }}</li>{{ end }}
             {{ if isset . "phone" }}<li><i class="ion-ios-telephone-outline"></i>{{ if .address_descriptors }}{{ i18n "phone" | printf "%s: " }}{{ end }}{{ .phone }}</li>{{ end }}
           </ul>
+
 <!--           
           <ul class="social-icons">
             {{ range site.Params.social }}

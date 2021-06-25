@@ -186,7 +186,7 @@ funfacts:
   - name: "Singapore"
     image: "images/clients/Singapore34.jpg"
     designation: "Merlion Park"
-    content: "Merlion Park/"
+    content: "Merlion Park"
 
   - name: "France"
     image: "images/clients/France34.jpg"

@@ -103,13 +103,15 @@ image = "images/logo.png"
 logo = "images/logo.png"
 logo_width = "150px"
 [params.contact]
-address_descriptors = false
+address_descriptors = true
 email = "elitre@gmail.com"
-location = "**ELITRE**  \nNo.2, Nanshi 1st. Street  \nLinkou District, New Taipei City  \nTaiwan\n"
+#location = "**ELITRE**  \nNo.2, Nanshi 1st. Street  \nLinkou District, New Taipei City  \nTaiwan\n"
+location = "No.2, Nanshi 1st. Street Linkou District, New Taipei City, Taiwan"
 phone = "+886-2-2600-3383"
+
 [params.contact.form]
 action = "#"
-enable = true
+enable = false
 success_image = "images/paper-plane.svg"
 use_netlify = true
 [params.cookies]

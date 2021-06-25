@@ -74,7 +74,7 @@ input[type="tel"] {
   font-size: 14px;
   letter-spacing: 1px;
   padding: 14px 35px;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   border-radius: 0;
   @include transition (all, 0.2s, ease);
 
@@ -285,7 +285,7 @@ input[type="tel"] {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
-  color: #8a6d3b;
+  color: #e6b422;
 
   @include mobile-xs {
     font-size: 26px;

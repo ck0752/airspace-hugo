@@ -13,30 +13,32 @@ banner:
     link: "project"
 
 ############################# About #################################
+#設定 首頁 GAS REGULATOR banner1
 about:
   enable: true
   title: "Gas regulator"
-  description: "One of our most popular product"
-  content: "With Australia AGA approval and certificate No. AGA6422 CLASS-0 & CLASS-2"
+  description: "With Australia AGA approval"
+  content: "<li>certificate No. AGA6422 CLASS-0 & CLASS-2 <br>
+<li>Inlet Pressure (mmH2O): 1kPa ~ 5kPa
+<li>Outlet Pressure(mmH2O): 0.6kPa ~ 3kPa 
+<li>Flow Rate: Q0.006 ~ 2.5
+<li>Has test point within"
+
   image: "images/aga-governor.jpg"
+  btnName: "More"
 
 
 ######################### Portfolio ###############################
 portfolio:
   enable: true
   bg_image: "images/feature-bg.jpg"
-  title: "WE BELIEVE IN GREAT IDEAS"
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  #title: "Great Quality! Great Price!"
+  title: "We Believe In Giving The Best Product To You"
+  content: "We believe that only the good quality of products will make clients happy. And We never compromise on the quality of our products and services. Moreover, we could give it you with great price!
   "
   button:
     enable: true
-    label: "View Works"
+    label: "View Products"
     link: "project"
 
 
@@ -50,11 +52,15 @@ service:
 cta:
   enable: true
   bg_image: "images/aga-governor.jpg"
-  title: "We design delightful digital experiences."
-  content: "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  #title: "Building Long-term relationship with our clients"
+  #title: "Positive feedback and Long-term relationship with every client"
+  title: "Keeping Long-term relationship and positive feedback with our clients"
+  content: "It is our main target to build long-term relationship to our client, not just for selling products, but also become a friend. You can trust us to be your partner."
+  
+  #Please do not hesitate to contact us"
   button:
     enable: true
-    label: "Tell Us Your Story"
+    label: "Contact Us"
     link: "contact"
 
 ############################# Funfacts ###############################
