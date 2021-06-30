@@ -35,7 +35,7 @@
   {{ end -}}
 
   {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/google_analytics.html" . }}
+  <!-- {{ template "_internal/google_analytics.html" . }} -->
 
   {{- with site.Params.counter -}}
   {{ if .enable -}}
@@ -50,16 +50,30 @@
   {{ "<!-- Plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css -}}
   <link rel="stylesheet" href="{{ .link | relURL }}" {{ .attributes | safeHTMLAttr }}>    
-  
+  {{ end }}
   <meta name="robots" content="index,follow" /> 
   <meta name="googlebot" content="index,follow" />
 
-  {{ end }}
-  <!--<script src="/plugins/custom.js"></script>-->
-  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
-  <!--<script src="/plugins/aos/aos.js"></script>
-  <link rel="stylesheet" href="/plugins/aos/aos.css" media="screen">-->
+  <!-- 設定分析GA -->
+  <!-- {{ if not .Site.IsServer }} -->
+  <!-- {{ template "_internal/google_analytics_async.html" . }} -->
+                         
+  <!-- {{ end }} -->
+	<!-- Cloudflare Web Analytics -->
+	<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "a8ef6f3344114cd8a5de4c6211728c71"}'></script><!-- End Cloudflare Web Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-P9BZFXHLEJ"></script> -->
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-P9BZFXHLEJ"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-P9BZFXHLEJ');
+	</script>
+
+
+
 
   {{ "<!-- Main stylesheet -->" | safeHTML }}
   {{ $styles := slice (resources.Get "scss/style.scss") (resources.Get "scss/custom.scss") | resources.Concat "scss/bundled.scss" | resources.ToCSS | resources.Minify -}}

@@ -1,7 +1,7 @@
 baseURL = "http://bbq-elitre.netlify.app"
 disableLanguages = ["fr,de,it"]
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "G-P9BZFXHLEJ"
 paginate = "4"
 summaryLength = "30"
 theme = "airspace-hugo"
