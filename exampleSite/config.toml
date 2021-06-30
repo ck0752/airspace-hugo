@@ -1,4 +1,5 @@
-baseURL = "http://bbq-elitre.netlify.app"
+# baseURL = "http://bbq-elitre.netlify.app"
+baseURL = "https://bbq.elitre.biz"
 disableLanguages = ["fr,de,it"]
 disqusShortname = ""
 googleAnalytics = "G-P9BZFXHLEJ"
