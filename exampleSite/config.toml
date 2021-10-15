@@ -109,6 +109,7 @@ email = "elitre@gmail.com"
 #location = "**ELITRE**  \nNo.2, Nanshi 1st. Street  \nLinkou District, New Taipei City  \nTaiwan\n"
 location = "No.2, Nanshi 1st. Street Linkou District, New Taipei City, Taiwan"
 phone = "+886-2-2600-3383"
+person = "Ms. Emily Lin"
 
 [params.contact.form]
 action = "#"

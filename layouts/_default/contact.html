@@ -55,6 +55,7 @@
             {{ if isset . "location" }}<li><i class="ion-ios-location-outline"></i>{{ if .address_descriptors }}{{ i18n "location" | printf "%s: " }}{{ end }}<div>{{ .location | markdownify }}</div></li>{{ end }}
             {{ if isset . "email" }}<li><i class="ion-ios-email-outline"></i>{{ if .address_descriptors }}{{ i18n "email" | printf "%s: " }}{{ end }}{{ partial "cloak_email" .email }}</li>{{ end }}
             {{ if isset . "phone" }}<li><i class="ion-ios-telephone-outline"></i>{{ if .address_descriptors }}{{ i18n "phone" | printf "%s: " }}{{ end }}{{ .phone }}</li>{{ end }}
+            {{ if isset . "person" }}<li><i class="ion-ios-telephone-outline"></i>{{ if .address_descriptors }}{{ "Contact" | printf "%s: " }}{{ end }}{{ .person }}</li>{{ end }}
           </ul>
 
 <!--           
@@ -71,11 +72,15 @@
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="google-map">
-            <div class="map" id="map" data-latitude="{{ site.Params.gmap.map_latitude }}" data-longitude="{{ site.Params.gmap.map_longitude }}" data-marker="{{ site.Params.gmap.map_marker | relURL }}" data-marker-name="{{ site.Title }}"></div>
+           <!-- <div class="map" id="map" data-latitude="{{ site.Params.gmap.map_latitude }}" data-longitude="{{ site.Params.gmap.map_longitude }}" data-marker="{{ site.Params.gmap.map_marker | relURL }}" data-marker-name="{{ site.Title }}"></div> -->
+           
+            <iframe class="map" id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1434.136993476117!2d121.36103914594733!3d25.074805203257327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a6d611fc8abf%3A0x4d39baea1bb9c51e!2zMjQ05Y-w54Gj5paw5YyX5biC5p6X5Y-j5Y2A5Y2X5Yui5LiA6KGXMuiZnw!5e0!3m2!1szh-TW!2ssv!4v1634264307326!5m2!1szh-TW!2ssv" loading="lazy"></iframe>
+           
           </div>
         </div>
       </div>
       {{ end }}
+     
     </div>
   </div>
 </section>
