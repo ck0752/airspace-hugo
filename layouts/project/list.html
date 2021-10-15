@@ -37,9 +37,10 @@
               {{ end }}
               <div class="portfolio-hover">
                 <div class="portfolio-content">
-                  {{ range first 1 .Params.image1 }}
-                  <a href="{{ .name | relURL }}" class="portfolio-popup"><i class="icon ion-search"></i></a>
-                  {{ end }}
+                  <!--{{ range first 1 .Params.image1 }}
+                   <a href="{{ .name | relURL }}" class="portfolio-popup"><i class="icon ion-search"></i></a>
+                                    {{ end }}
+                                    -->
                   <a class="h3" href="{{ .RelPermalink }}">{{ .Title }}</a>
                   <p>{{ .Params.Description }}</p>
                 </div>
